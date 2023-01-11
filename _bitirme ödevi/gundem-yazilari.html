@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gündem Yazıları</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/gundem_style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- start -->
+    <div class="container d-flex justify-content-center"><img class="" src="./maxresdefault.jpg" alt=""></div>
+    
+
+
+
+
+    <!-- start-end -->
+    <!-- navbar, -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse d-flex justify-content-evenly " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="MrSoong.html">Anasayfa</a>
+              </li>
+              <div class="dropdown">
+                <button class="btn text-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hakkımızda
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./hakkımızda/yazarlar.html">Yazarlar</a></li>
+                  <li><a class="dropdown-item" href="./hakkımızda/siteninkisatarihi.html">Sitenin Kısa Tarihi</a></li>
+                  <li><a class="dropdown-item" href="./hakkımızda/siteninanlami.html">Sitenin "Anlamı"</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link gundem" href="gundem-yazilari.html">Gündem Yazıları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tarih-yazilari.html">Tarih Yazıları</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="felsefi-icerikler.html">Felsefi İçerikler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="cizgi-roman-guncesi.html">Çizgi Roman Güncesi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="film-incelemeleri.html">Film İncelemeleri</a>
+              </li>
+              <li class="nav-item">
+               
+                    <a class=" nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" accesskey="g">
+                        Giriş Yap
+                      </a>
+                
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Giriş Yap</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <!-- form -->
+      <form class="m-3">
+        <div class="mb-3 ">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+         
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Şifre</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Hep Açık Tut</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Giriş</button>
+      </form>
+    <!-- form end -->
+     <hr>   
+     <a href="uye_ol.html" class="text-decoration-underline text-danger ms-4 fs-5">Üye Ol</a>
+      
+    </div>
+      <!-- offcanvas -->
+      <div class="container buyukyazi mt-5">
+        <h2 class="text-center ">Gündem Yazıları</h2>
+      </div>
+      <hr>
+      <!-- buyukyazı -->
+
+          <!-- sırahaberler -->
+          <div class="container">
+            <!-- bir -->
+          
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 1</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, soluta excepturi nisi tempora, corrupti est fugit cumque fuga, exercitationem a provident eius laudantium consectetur! Reiciendis nostrum fuga necessitatibus vitae, ratione illo quas id perferendis ullam, perspiciatis a repudiandae quos, soluta sequi? Facilis quod, molestiae eaque magnam provident totam earum. Et.</p>
+                    <p class="card-text"><small class="text-muted">Son günceleme 09.01.1999</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- bir -->
+            <!-- iki  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto2.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam sit ad pariatur. Accusantium cum molestiae illo et blanditiis cumque qui quo exercitationem neque dolore similique nobis reprehenderit aliquid excepturi quas expedita odit enim ipsum, asperiores nisi debitis architecto libero. Repellat nulla ea autem laudantium quis suscipit molestiae quidem reiciendis.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- iki  -->
+            <!-- üç  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto3.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum perferendis doloribus nisi distinctio iusto, aperiam pariatur libero error temporibus labore consequuntur, quos harum molestiae? Esse eaque repellendus vitae nobis eum temporibus recusandae sunt et accusantium vel harum, eos soluta necessitatibus natus quo alias! Quo sit porro ducimus officiis provident expedita.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>T
+              </div>
+            </div> 
+            <!-- üç  -->
+            <!-- dört  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto4.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 4</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illum ab repellat nulla similique quos exercitationem, expedita ea labore reprehenderit nostrum perferendis magni delectus dolorem doloribus eaque dolorum at ad in necessitatibus corporis. Atque, molestias praesentium reiciendis ratione rem inventore facilis magnam odio, dicta qui, nisi voluptates enim delectus fugiat!</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- dört  -->
+            <!-- beş  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto5.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 5</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, error debitis ea magni eos laborum ab illo expedita? Perferendis iste repellat voluptate placeat accusamus quos qui doloribus eius soluta deserunt numquam labore dolores blanditiis eligendi porro quas culpa pariatur ex odio modi dolorum, vel voluptas ipsa? Atque odio minima eos.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- beş  -->
+            <!-- altı  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto6.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 6</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- altı  -->
+            <!-- yedi  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto7.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 7</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolorum molestias facilis, enim nobis aperiam fugit iusto ipsam, iure officiis adipisci debitis dicta voluptatum veniam labore veritatis autem voluptatem? Saepe, nisi. Tenetur, voluptates dolore eius eos eveniet commodi nostrum voluptas, reprehenderit porro quisquam quaerat, deserunt sunt nulla labore? Quis, laborum.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- yedi  -->
+            <!-- sekiz  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto8.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 8</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quos molestias tempore dolores possimus deleniti laudantium voluptas eos, ipsum qui corporis rem neque officia quidem ullam corrupti. Autem illum minima, modi cum repellat, quasi labore, nostrum quae maxime libero quod repudiandae sit dolorem voluptatibus impedit exercitationem neque consequatur quisquam hic.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- sekiz  -->
+            <!-- dokuz  -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto9.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 9</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nemo et alias delectus culpa minima eum commodi maxime obcaecati, doloribus, soluta odit ducimus? Id adipisci perspiciatis sit sed quae eveniet rem doloremque, tempore dolor odit tenetur assumenda, hic nostrum iusto commodi ea cumque, ducimus veritatis distinctio ad voluptatum. Assumenda, velit.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- dokuz  -->
+            <!-- on -->
+            <div class="card mb-3" style="max-width: 1200px;">
+              <div class="row g-0">
+                <div class="col-md-3">
+                  <img src="./blogassets/foto10.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-9">
+                  <div class="card-body">
+                    <h5 class="card-title">GÜNDEM 10</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia excepturi maxime, molestias similique, nisi officia facilis architecto asperiores sit cum doloribus, quasi dolore minus eveniet libero quod quos provident fugit odit inventore mollitia ullam quaerat a cumque. Dolorum qui deleniti quibusdam modi nostrum natus quas molestias nesciunt, minus veniam neque.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <div class="text-end"><a href="./blog yazıları/yazi1.html"><button type="button" class="btn btn-warning text-end">Yazıya Git...</button></a></div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- on -->
+      
+          </div> 
+      
+             <!-- sırahaberler end -->
+
+
+
+
+            <!-- footer -->
+            <footer class="py-5 m-5">
+              <div class="row">
+                <div class="col-9 col-md-4 mb-3 ">
+                  <h5>Seçenekler</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="MrSoong.html" class="nav-link p-0 text-muted">Anasayfa</a></li>
+                    <li class="nav-item mb-2"><a href="uye_ol.html" class="nav-link p-0 text-muted">Kayıt Ol</a></li>
+                    <li class="nav-item mb-2"><a href="gundem-yazilari.html" class="nav-link p-0 text-muted">Gündem Yazıları</a></li>
+                    <li class="nav-item mb-2"><a href="film-incelemeleri.html" class="nav-link p-0 text-muted">Film Yazıları</a></li>
+                    <li class="nav-item mb-2"><a href="./hakkımızda/yazarlar.html" class="nav-link p-0 text-muted">Yazarlar</a></li>
+                  </ul>
+                </div>
+          
+                
+          
+                
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+           <!-- footer end --> 
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
